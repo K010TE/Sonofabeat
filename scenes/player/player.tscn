@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://vc6acgivqww"]
+
+[ext_resource type="Texture2D" uid="uid://c1imvadvkqkpr" path="res://assets/sprites/cachorro_16x16-removebg-preview.png" id="1_8afob"]
+[ext_resource type="Script" uid="uid://b316w2hw4l7ga" path="res://scripts/player/player.gd" id="1_dovo2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dovo2"]
+size = Vector2(98, 138)
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_dovo2")
+<<<<<<< HEAD
+gravity = 4600.0
+=======
+gravity = 4200.0
+>>>>>>> 446ef6a (chore: configure .gitignore for Godot 4)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_8afob")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 9)
+shape = SubResource("RectangleShape2D_dovo2")

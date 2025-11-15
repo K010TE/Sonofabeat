@@ -1,0 +1,39 @@
+# Godot 4.x
+.godot/
+.import/
+
+# Exports / builds
+export/
+bin/
+build/
+dist/
+
+# Android export / Gradle
+android/
+*.apk
+*.aab
+*.keystore
+.gradle/
+local.properties
+**/build/
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Mono / C#
+.mono/
+*.csproj
+*.sln
+
+# Editor / IDE
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
